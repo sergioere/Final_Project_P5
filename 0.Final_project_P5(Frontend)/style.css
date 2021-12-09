@@ -1,0 +1,95 @@
+.navbar {
+  background-color: rgba(238, 238, 238, 0.705);
+}
+
+.myForm,
+#wrapper {
+  opacity: 0.93;
+}
+
+body {
+  background-image: url("./img/Books.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+
+}
+
+/**Styles of Sidebar*/
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
+/*mis estilos*/
+.cerrar {
+  margin-left: 800px;
+
+}
+
+ul li {
+
+  list-style: none;
+}
+
+#area {
+  margin-left: 15px;
+
+}
+
+
+img {
+
+  /* border-radius: 60%; */
+
+
+  border-radius: 10%;
+
+  margin: auto;
+}
+
+

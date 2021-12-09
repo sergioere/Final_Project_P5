@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- <script defer src="jquery/jquery.slim.js"></script>
+    <script defer src="./popper/popper.min.js"></script>
+    <script defer src="Bootstrap/js/bootstrap.min.js"></script> -->
+
+  <title>Login</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light   text-dark">
+    <a class="navbar-brand" href="">SGCMD
+
+      <!-- <small class="small ml-5">
+        Autenticar usuario
+
+      </small> -->
+    </a>
+  </nav>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-md-8  col-lg-6  col-xl-6  mt-5 pt-3">
+        <form id="formulario" action="/users/login" method="POST" class="myForm card card-body bg-dark">
+          <img width="90px" class="content-center mb-1" src="./img/logo.jpg"> </img>
+          <h6 class="h6 mt-auto mb-3 text-center text-light">
+            Sistema de Gestión del Control del Material Docente
+          </h6>
+
+          <div class="form-group">
+            <input id="user" type="text" class="form-control " placeholder="&#x1f464; Usuario" required />
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" class="form-control " name="password"
+              placeholder="&#x1f510; Contraseña" required />
+          </div>
+          <div class="form-group">
+            <input class="btn btn-primary form-control" type="submit" value="&#x21aa;&#xfe0f; Ingresar" />
+          </div>
+
+          <hr />
+          <p class="small text-center text-light">
+            Universidad de las Ciencias Informáticas
+          </p>
+          <p class="small text-center text-light">
+            Todos los derechos reservados &#xa9;&#xfe0f;
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>
